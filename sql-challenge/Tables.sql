@@ -27,6 +27,7 @@ CREATE TABLE dept_manager (
     dept_no VARCHAR REFERENCES departments (dept_no),
     emp_no INT REFERENCES employees(emp_no),
     from_date DATE,
+    to_date DATE
 );
 
 CREATE TABLE dept_emp (
