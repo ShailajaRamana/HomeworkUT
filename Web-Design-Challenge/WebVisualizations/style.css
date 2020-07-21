@@ -1,0 +1,88 @@
+.navbar-brand {
+    background-color:pink;
+    padding: 48px;
+    border-radius: 3px;
+    margin-left: 0px;
+}
+.container {
+    background-color: lightskyblue;
+    padding:50px;
+    padding-bottom: 100px;
+}
+.collapse-navbar {
+    background-color:pink;
+    padding: 15px;
+    border-radius: 3px;
+    text-align: right;
+    margin-right: 100px;
+    cursor: pointer;
+}
+.col-mid-6 :left{
+    text-align: left;
+    margin-right: 600px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    font-size: x-small;
+}
+@media (max-width:400px ){
+    .collapse-navbar  {
+      visibility: hidden;
+    }
+    #nav-select {
+      visibility: visible;
+    }
+  }
+body h4 {
+    font-size: 50px;
+    text-align: left;
+    margin-left: 30px;
+    color: palevioletred;
+    margin-top: 50px;
+}
+body p4 {
+    font-size: 20px;
+    margin-left: 40px;
+    color: gray;
+}
+
+.box h5 {
+    font-size: 20px;
+    margin-left: 120px;
+}
+
+.box h6 {
+    font-size: 20px;
+    margin-left: 120px;
+}
+.box h7 {
+    font-size: 20px;
+    margin-left: 120px;
+}
+.box h8 {
+    font-size: 20px;
+    margin-left: 120px;
+}
+.box img {
+    margin-left: 80px;
+}
+.skyblue {
+    background: deepskyblue;
+}
+.nav-item-dropdown div  {
+    background: pink;
+}
+h9 {
+    font-size: 30px;
+}
+body h10 {
+    font-size: 50px;
+    text-align: left;
+    margin-left: 30px;
+    color: palevioletred;
+    margin-top: 50px;
+}
+body p10 {
+    font-size: 20px;
+    margin-left: 40px;
+    color:black;
+}
